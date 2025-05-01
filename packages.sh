@@ -7,3 +7,8 @@ echo “Main Packages Installed!”
 pacman -S xf86-video-amdgpu lib32-gamemode lib32-mangohud lib32-vulkan-radeon lib32-amdvlk lib32-libva-mesa-driver steam lutris wine wine-mono winetricks gamemode mangohud gamescope gst-plugins-good gst-plugins-bad gst-plugins-ugly 
 
 echo “Gaming Packages Installed”
+
+systemctl enable sddm.service
+systemctl enable fsttim.timer
+
+echo "Enabling Complete"
