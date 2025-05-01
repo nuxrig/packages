@@ -11,4 +11,4 @@ echo “Gaming Packages Installed”
 systemctl enable sddm.service
 systemctl enable fsttim.timer
 
-echo "Enabling Complete"
+echo "Systemctl Complete"
