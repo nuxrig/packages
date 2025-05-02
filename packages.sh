@@ -10,5 +10,6 @@ echo “Gaming Packages Installed”
 
 systemctl enable sddm.service
 systemctl enable fsttim.timer
+systemctl start bluetooth.service
 
 echo "Systemctl Complete"
