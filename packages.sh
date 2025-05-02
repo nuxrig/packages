@@ -9,7 +9,7 @@ pacman -S xf86-video-amdgpu lib32-gamemode lib32-mangohud lib32-vulkan-radeon li
 echo “Gaming Packages Installed”
 
 systemctl enable sddm.service
-systemctl enable fsttim.timer
+systemctl start fsttim.timer
 systemctl start bluetooth.service
 
 echo "Systemctl Complete"
