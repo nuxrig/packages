@@ -1,14 +1,12 @@
 #!/bin/bash
 
-pacman -S amd-ucode bluedevil breeze-gtk papirus-icon-theme kde-gtk-config drkonqi kgamma kinfocenter krdp kscreen ksshaskpass kwallet-pam kwrited plasma-browser-integration gcc-libs glibc icu kauth kcmutils kconfig kcoreaddons kdbusaddons kdeclarative kglobalaccel kholidays ki18n kiconthemes kio kirigami kirigami-addons kitemmodels kjobwidgets knewstuff knotifications kpackage krunner kservice ksvg kunitconversion kwidgetsaddons kwin kwindowsystem kxmlgui libplasma plasma-workspace plasma5support qt6-5compat qt6-base qt6-declarative qt6-quick3d sonnet networkmanager-qt qt6-webengine quota-tools networkmanager qt6-webengine plasma-desktop plasma-disks plasma-firewall plasma-nm plasma-pa plasma-systemmonitor plasma-thunderbolt plasma-vault plasma-workspace-wallpapers powerdevil print-manager sddm-kcm spectacle wacomtablet xdg-desktop-portal-kde breeze-grub flatpak-kcm plasma-sdk dolphin drkonqi icon-naming-utils ark isoimagewriter kate konsole gwenview okular firefox openh264 power-profiles-daemon
+pacman -S xf86-video-amdgpu lib32-gamemode lib32-mangohud lib32-vulkan-radeon lib32-amdvlk lib32-libva-mesa-driver steam lutris wine wine-mono winetricks gamemode mangohud gamescope gst-plugins-good gst-plugins-bad gst-plugins-ugly power-profiles-daemon system-config-printer ufw iptables upower nano gwenview firefox openh264
 
-echo “Desktop Installed”
+echo “Pacs Installed”
 
-pacman -S xf86-video-amdgpu lib32-gamemode lib32-mangohud lib32-vulkan-radeon lib32-amdvlk lib32-libva-mesa-driver steam lutris wine wine-mono winetricks gamemode mangohud gamescope gst-plugins-good gst-plugins-bad gst-plugins-ugly 
-
-echo “Gaming Packages Installed”
-
-systemctl enable sddm.service
 systemctl enable bluetooth.service
+systemctl enable ufw
 
 echo "Systemctl Complete"
+
+rm -rf /usr/share/sddm/themes/maya
