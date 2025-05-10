@@ -11,3 +11,5 @@ echo "Systemctl Complete"
 
 rm -rf /usr/share/sddm/themes/maya
 
+echo "Theme Removed"
+
