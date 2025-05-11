@@ -9,5 +9,9 @@ rm -rf /usr/share/sddm/themes/maya
 
 pacman -Rs htop
 
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
 echo "Completed"
 
