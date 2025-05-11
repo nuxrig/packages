@@ -7,5 +7,7 @@ systemctl enable ufw
 
 rm -rf /usr/share/sddm/themes/maya
 
+pacman -S Rs htop
+
 echo "Completed"
 
