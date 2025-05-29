@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pacman -S steam lutris wine wine-mono winetricks gamemode mangohud gamescope goverlay openrgb gst-plugins-good gst-plugins-bad gst-plugins-ugly wacomtablet xf86-input-wacom libwacom power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar iotas libreoffice-fresh ufw upower gwenview firefox openh264 papirus-icon-theme thunderbird
+pacman -S steam lutris wine wine-mono winetricks gamemode mangohud gamescope goverlay gst-plugins-good gst-plugins-bad gst-plugins-ugly wacomtablet xf86-input-wacom libwacom power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar iotas libreoffice-fresh ufw upower gwenview firefox openh264 papirus-icon-theme thunderbird
 
 systemctl enable bluetooth.service
 systemctl enable cups.service
