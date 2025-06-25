@@ -6,6 +6,7 @@ systemctl enable bluetooth.service
 systemctl enable cups.service
 
 rm -rf /usr/share/sddm/themes/maya
+pacman -Rs htop
 
 echo "Completed"
 
