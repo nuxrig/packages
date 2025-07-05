@@ -10,6 +10,8 @@ systemctl enable dnscrypt-proxy
 
 rm -rf /usr/share/sddm/themes/maya
 
+pacman -Rn ark
+
 
 echo "Completed"
 
