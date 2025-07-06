@@ -13,7 +13,7 @@ systemctl enable fail2ban
 rm -rf /usr/share/sddm/themes/maya
 
 pacman -Rn ark
-pacman -Rn ocukular
+pacman -Rn ockular
 
 
 echo "Completed"
