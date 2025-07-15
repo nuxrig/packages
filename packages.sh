@@ -5,14 +5,14 @@ pacman -S steam gamemode network-manager-applet fwupd fwupd-docs power-profiles-
 systemctl enable bluetooth.service
 systemctl enable cups.service
 systemctl enable paccache.timer
+systemctl enable pacman-init.timer
 systemctl enable dnscrypt-proxy
-
-
 
 rm -rf /usr/share/sddm/themes/maya
 
 pacman -Rn ark
 pacman -Rn okular
+pacman -Rn discovery
 
 
 echo "Completed"
