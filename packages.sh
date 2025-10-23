@@ -1,9 +1,14 @@
 #!/bin/bash
 
-pacman -S steam gamemode network-manager-applet fwupd fwupd-docs power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar unzip ufw upower gwenview firefox openh264 terminus-font evolution evince  
+pacman -S steam gamemode network-manager-applet fwupd fwupd-docs power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar unzip ufw upower gwenview firefox openh264 terminus-font evolution evince 
+plasma-desktop kde-gtk-config dolphin konsole sddm xdg-desktop-portal-kde flatpak kate ark spectacle apparmor fail2ban
 
 systemctl enable bluetooth.service
 systemctl enable cups.service
+systemctl enable sddm.service
+systemctl set-default graphical.target
+
+echo "exec startplasma-wayland" > ~/.xinitrc
 
 rm -rf /usr/share/sddm/themes/maya
 rm -rf /usr/share/sddm/themes/elarun
