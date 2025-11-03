@@ -4,6 +4,8 @@ pacman -S steam gamemode efibootmgr sbsigntools efitools network-manager-applet 
 
 systemctl enable bluetooth.service
 systemctl enable cups.service
+ufw enable
+ufw allow 631/tcp
 
 rm -rf /usr/share/sddm/themes/maya
 rm -rf /usr/share/sddm/themes/elarun
