@@ -8,7 +8,7 @@ systemctl enable cups.service
 rm -rf /usr/share/sddm/themes/maya
 rm -rf /usr/share/sddm/themes/elarun
 rm -rf /usr/share/sddm/themes/maldives
-pacman -R htop
+pacman -Rs htop
 
 
 echo "Completed"
