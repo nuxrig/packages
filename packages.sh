@@ -13,6 +13,7 @@ rm -rf /usr/share/sddm/themes/maldives
 pacman -Rs htop
 
 rm -rf /usr/bin/qvidcap /usr/share/man/man1/qvidcap.1.gz
+rm -rf /usr/bin/qv4l2 /usr/share/man/man1/qv4l2.1.gz
 rm -rf /usr/bin/lstopo /usr/share/man/man1/lstopo.1.gz
 rm -rf /usr/bin/plasma-discover /usr/lib/plasma-discover
 
