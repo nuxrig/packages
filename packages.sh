@@ -7,10 +7,12 @@ systemctl enable cups.service
 ufw enable
 ufw allow 631/tcp
 
+pacman -Rs htop
+
 rm -rf /usr/share/sddm/themes/maya
 rm -rf /usr/share/sddm/themes/elarun
 rm -rf /usr/share/sddm/themes/maldives
-pacman -Rs htop
+
 
 rm -rf /usr/bin/qvidcap /usr/share/man/man1/qvidcap.1.gz
 rm -rf /usr/bin/qv4l2 /usr/share/man/man1/qv4l2.1.gz
