@@ -18,6 +18,10 @@ rm -rf /usr/bin/qvidcap /usr/share/man/man1/qvidcap.1.gz
 rm -rf /usr/bin/qv4l2 /usr/share/man/man1/qv4l2.1.gz
 rm -rf /usr/bin/lstopo /usr/share/man/man1/lstopo.1.gz
 rm -rf /usr/bin/plasma-discover /usr/lib/plasma-discover
+rm -rf /usr/bin/assistant6 
+rm -rf /usr/bin/qdbusviewer6 
+rm -rf /usr/bin/linguist6 
+rm -rf /usr/bin/designer6
 
 
 
