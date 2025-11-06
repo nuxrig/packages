@@ -5,11 +5,10 @@ pacman -S steam gamemode network-manager-applet btrfs-assistant fwupd fwupd-docs
 systemctl enable bluetooth.service
 systemctl enable cups.service
 
-pacman -Rs htop
-
 rm -rf /usr/share/sddm/themes/maya
 rm -rf /usr/share/sddm/themes/elarun
 rm -rf /usr/share/sddm/themes/maldives
 
+pacman -Rs htop
 
 echo "Done"
