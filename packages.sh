@@ -4,6 +4,7 @@ pacman -S steam gamemode btrfs-assistant fwupd fwupd-docs plymouth-kcm power-pro
 
 systemctl enable bluetooth.service
 systemctl enable cups.service
+systemctl enable apparmor.service
 ufw enable
 ufw allow 631/tcp
 
