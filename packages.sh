@@ -13,5 +13,3 @@ rm -rf /usr/share/applications/assistant.desktop /usr/share/applications/designe
 
 
 pacman -Rs htop
-
-echo "Done"
