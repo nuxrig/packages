@@ -1,6 +1,7 @@
 #!/bin/bash
 
-pacman -S steam gamemode btrfs-assistant fwupd fwupd-docs sbctl efitools power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar unzip p7zip openh264 firefox ufw gwenview terminus-font evolution evince
+pacman -S steam gamemode btrfs-assistant fwupd fwupd-docs sbctl efitools power-profiles-daemon system-config-printer cups cups-pdf gutenprint foomatic-db foomatic-db-engine foomatic-db-nonfree pacman-contrib unrar unzip p7zip openh264 firefox ufw gwenview terminus-font evolution evince apparmor dnscrypt-proxy
+
 
 systemctl enable bluetooth.service
 systemctl enable cups.service
